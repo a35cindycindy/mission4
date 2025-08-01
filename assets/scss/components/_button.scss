@@ -1,0 +1,113 @@
+
+.btn{
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-family:  'Noto Sans TC';
+}
+
+
+.list_btn{
+    background: var(--primary-200);
+    padding: 12px 61px;
+    font-family: 'Noto Sans TC';
+}
+
+
+.story_btn{
+    background: var(--primary-100);
+    padding: 12px 61px;
+    font-family: 'Noto Sans TC';
+}
+
+
+.buy-btn{
+    background: var(--primary-300);
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-family: 'Noto Sans TC';
+}
+
+
+.sign-btn{
+    background: var(--Neutral-900);
+    border-radius: 4px;
+    padding: 12px 24px;
+    color:#FFFFFF ;
+}
+
+
+@media (max-width:767px) {
+  .sign-md-btn{
+    font-size: 16px;
+    padding:8px 16px;
+
+  }
+}
+
+
+.color-btn{
+    font-weight: 500;
+    color:#6C757D;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-family:  'Noto Sans TC';
+}
+
+
+
+.size-btn{
+    width: 160px;
+    height: 48px;
+    border: 1px solid #DEE2E6;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.size-btn:not(:disabled):hover{
+    border: 1px solid #212529;
+}
+
+.size-btn:disabled {
+    cursor: not-allowed;
+}
+
+.add-btn{
+    width: 260px;
+    height: 48px;
+    border: 1px solid #212529;
+}
+
+.add-btn:hover{
+    background-color: #212529;
+    color:#FFFFFF
+}
+
+
+.book-btn{
+    width: 260px;
+    height: 48px;
+    border: 1px solid #212529;
+    background-color: #212529;
+    color:#FFFFFF
+}
+
+
+@media (max-width:767px) {
+  .book-btn{
+    width: 295px;
+    height: 48px;
+  }
+  .add-md-btn{
+    padding:12px;
+  }
+}
+

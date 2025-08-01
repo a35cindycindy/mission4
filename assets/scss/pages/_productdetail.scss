@@ -1,0 +1,43 @@
+
+
+.product-img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+
+}
+
+.product-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+
+
+.product-col{
+    width: calc(100%/12*6);
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+
+@media (max-width: 767px) {
+  .detail-md-col {
+    width: 100%;
+    padding:0px 0px;
+    margin:0px 0px ;
+  }
+}
+
+.sign-bg{
+    background: var(--primary-200)
+}
+
+
+.product-color{
+    width: 64px;
+    height: 64px;
+}
+

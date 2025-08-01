@@ -1,5 +1,31 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
 
 
-@import './pages/index.scss';
+// base
+@import "./base/reset";
+@import "./base/base";
+
+// 變數、通用樣式
+@import "./helper/variables";
+@import "./helper/utils";
+
+// 第三方套件
+@import "./vendors/bootstrap";
+
+
+// components
+@import "./components/button";
+@import "./components/breadcrumb";
+
+// layout
+@import "./layout/header";
+@import "./layout/footer";
+
+// pages
+@import "./pages/index";
+@import "./pages/bandstory";
+@import "./pages/productdetail";
+@import "./pages/productlist";
+
+
+

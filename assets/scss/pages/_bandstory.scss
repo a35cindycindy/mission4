@@ -1,0 +1,101 @@
+
+.header-img{
+  background-image: url("/assets/images/hero.png");
+  background-size:cover;
+  text-align:center;
+  background-position:center;
+}
+
+
+@media (max-width:767px) {
+  .header-img{
+    padding: 87px 0;
+    background-image: url("/assets/images/hero-sm.png");
+  }
+  .eng-title{
+    font-size: 20px;
+  }
+}
+
+
+
+
+.desc{
+    text-align:center;
+}
+
+@media (max-width:767px) {
+.desc-md{
+    text-align:left;
+}
+}
+
+
+
+.intro-img{
+  margin-left:-110px;
+  margin-right:-110px;
+  max-width:1076px;
+  display: block;
+}
+
+
+@media (max-width:767px) {
+  .intro-md-img{
+    width: 100%;
+    height: auto;
+    margin-left:0px;
+    margin-right:0px;
+
+  }
+}
+
+
+
+.history-li{
+  list-style-type:disc; 
+  list-style-position:inside;
+}
+
+.history span{
+  margin-left:8px;
+  border-left:1px solid #212529;
+  padding-left:10px;
+}
+
+.idea-li{
+  border-left:3px solid #DEE2E6;
+  
+}
+
+.story-li {
+  list-style-position:inside;
+}
+
+.story-li-link{
+    border-bottom:1px solid  #57A203;
+}
+
+
+.story-li-link:hover{
+    color:#477A11;
+}
+
+ 
+.footer{
+    text-align: center;
+}
+
+
+.sign-bg{
+    background: var(--primary-200)
+}
+
+
+
+
+.footer-rights{
+    padding-top: 32px;
+    text-align: center;
+}
+

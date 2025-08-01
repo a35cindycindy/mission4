@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>商品詳情頁 - Celia</title>
+
+</head>
+<body>
+    <%- include('./layout/header'); -%>
+    <div class="container">
+        <main>
+            <div class="row py-64 py-sm-0">
+                <div class="col-7 detail-md-col">
+                    <div class="product-row detail-md-col">
+                        <div class="product-col detail-md-col">
+                            <img src="/assets/images/product.png" alt="PLATFORM 404" class="product-img mb-8">
+                        </div>
+                        <div class="product-col">
+                            <img src="/assets/images/image-1.png" alt="PLATFORM 404" class="product-img mb-8 d-sm-none">
+                        </div>
+                        <div class="product-col">
+                            <img src="/assets/images/image-2.png" alt="PLATFORM 404" class="product-img mb-8 d-sm-none">
+                        </div>
+                        <div class="product-col">
+                            <img src="/assets/images/image-3.png" alt="PLATFORM 404" class="product-img mb-8 d-sm-none">
+                        </div>
+                        <div class="product-col">
+                            <img src="/assets/images/image-4.png" alt="PLATFORM 404" class="product-img mb-8 d-sm-none">
+                        </div>
+                        <div class="product-col">
+                            <img src="/assets/images/image-5.png" alt="PLATFORM 404" class="product-img mb-8 d-sm-none">
+                        </div>
+                        <div class="product-col">
+                            <img src="/assets/images/image-6.png" alt="PLATFORM 404" class="product-img mb-8 d-sm-none">
+                        </div>
+                        <div class="product-col">
+                            <img src="/assets/images/image-7.png" alt="PLATFORM 404" class="product-img mb-8 d-sm-none">
+                        </div>                                                                                                  
+                    </div> 
+                </div>
+                <div class="col-5 col-md-4">
+                    <div class="flex mb-12 mb-sm-8">
+                        <p class="breadcrumb-item textN-600">首頁</p>
+                        <p class="breadcrumb-item textN-600">女鞋</p>
+                        <p class="breadcrumb-item textN-600">滑板鞋</p>
+                        <p class="breadcrumb-item textN-900">Platform 404</p>
+                    </div>
+                    <h2 class="h2 mb-16 mb-sm-12">Platform 404</h2>
+                    <div class="flex mb-16 aie mb-sm-12">
+                        <h5 class="h5 textP-400 pr-8">NT$2,600</h5>
+                        <p class="text-sm textN-500 text-dec">NT$3,200</p>
+                    </div>
+                    <div class="mb-32">
+                        <p class="mb-12">Platform 404 以柔和奶白為底，搭配深藍色皮革點綴，走在街上自帶回頭率。鞋型採用復古運動風輪廓，結合輕量厚底與柔軟泡棉鞋舌，兼顧美感與舒適。</p>
+                        <p>鞋身選用柔軟皮革材質，打造出清新卻不失個性的氛圍，並以鞋面透氣孔設計提升穿著體驗，兼顧質感與舒適度，適合日常長時間著用。無論是街頭穿搭、日常通勤或週末出遊都能輕鬆駕馭。</p>
+                    </div>
+                    <p class="pb-8">顏色</p>
+                    <div class="flex mb-32 mb-sm-24">
+                        <div class="aic">
+                            <button type="button" class="color-btn mr-8" >
+                                <img src="/assets/images/product.png" alt="" class="product-color">
+                                <p class="text-ac">藍色</p>
+                            </button>
+                        </div>
+                        <div class="aic">
+                            <button type="button" class="color-btn" >
+                                <img src="/assets/images/product-1.png" alt="" class="product-color">
+                                <p class="text-ac">卡其色</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mb-48 mb-sm-24">
+                        <p class="mb-8">尺寸</p>
+                        <button type="button" class="btn size-btn"  >
+                        35(22.5cm)
+                        </button>                        
+                        <button type="button" class="btn size-btn"  >
+                        39(24.5cm)
+                        </button>      
+                        <button type="button" class="btn size-btn"  >
+                        37(23.5cm)
+                        </button>
+                        <button type="button" class="btn size-btn"  >
+                        38(24.0cm)
+                        </button> 
+                        <button type="button" class="btn size-btn"  >
+                        39(24.5cm)
+                        </button>
+                        <button type="button" class="btn size-btn"  >
+                        40(25.0cm)
+                        </button>
+                        <button type="button" class="btn size-btn"  >
+                        41(26.0cm)
+                        </button>
+                        <button type="button" class="btn size-btn" disabled >
+                        42(26.5cm)
+                        </button>     
+                        <button type="button" class="btn size-btn pb-8" disabled >
+                        43(27.0cm)
+                        </button>
+                        <p class="textD-300 ">僅剩 3 雙</p>
+                    </div>
+                    <div class="flex mb-32 aic">
+                        <button type="button" class="btn add-btn mr-8 d-sm-none" >
+                        <i class="bi bi-heart mr-8"></i>加入收藏
+                        </button>
+                        <button type="button" class="btn book-btn mr-8" >
+                        <i class="bi bi-handbag mr-8"></i>門市預約試穿
+                        </button>
+                        <button type="button" class="btn add-md-btn d-none d-sm-block" >
+                        <i class="bi bi-heart"></i>
+                        </button>
+                    </div>
+                    <div class="py-12 lined">
+                        <p class="mb-4">商品材質</p>
+                        <p class="textN-600">鞋面：合成皮革（Synthetic Leather）<br>
+                            內裡：透氣網布材質，提升舒適與排汗性<br>
+                            鞋底：EVA 輕量發泡橡膠，具備良好緩震與止滑效果<br>
+                            鞋帶：聚酯纖維，耐拉扯不易鬆脫</p>
+                    </div>
+                    <div class="py-12 lined">
+                        <p class="mb-4">購買須知</p>
+                        <p class="textN-600">商品顏色因螢幕顯示可能略有差異，請以實品為準。<br>
+                            建議首次穿著前試穿確認尺寸，避免影響退換貨權益。<br>
+                            本商品為限量發售，庫存有限，如需更換尺寸請儘早聯繫客服協助處理。</p>
+                    </div>
+                    <div class="py-12 lined">
+                        <p class="mb-4">保養方式</p>
+                        <p class="textN-600">建議以乾布或微濕軟布擦拭表面汙漬，避免機洗或長時間浸水。<br>
+                            收納時請放置於乾燥通風處，避免日曬及高溫導致變形或龜裂。<br>
+                            若需深層清潔，建議使用中性清潔劑並搭配柔刷輕刷，勿使用漂白水或強酸強鹼清潔劑。</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section class="py-48 mb-40 py-sm-40 mb-sm-24">
+            <h4 class="mb-16">你可能也喜歡...</h4>
+            <ul class="row flex-md-nowrap overflow-x-md-auto product-md-row">
+                <li class="col-3 product-md-col">
+                    <div>
+                        <img src="/assets/images/product-2.png" alt="PLATFORM 404" class="mb-12 product-img">
+                        <h6 class="h6 mb-4">PLATFORM 404</h6>
+                        <p>NT$2,600</p>
+                    </div>
+                </li>
+                <li class="col-3 product-md-col">
+                    <div>
+                        <img src="/assets/images/product-3.png" alt="PLATFORM 404" class="mb-12 product-img">
+                        <h6 class="h6 mb-4">PLATFORM 404</h6>
+                        <p>NT$2,600</p>
+                    </div>
+                </li>
+                <li class="col-3 product-md-col">
+                    <div>
+                        <img src="/assets/images/product-4.png" alt="PLATFORM 404" class="mb-12 product-img">
+                        <h6 class="h6 mb-4">PLATFORM 404</h6>
+                        <p>NT$2,600</p>
+                    </div>
+                </li>
+                <li class="col-3 product-md-col">
+                    <div>
+                        <img src="/assets/images/product-7.png" alt="PLATFORM 404" class="mb-12 product-img">
+                        <h6 class="h6 mb-4">PLATFORM 404</h6>
+                        <p>NT$2,600</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+    <%- include('./layout/footer_login'); -%>
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>    
+
+    
+</body>
+</html>
